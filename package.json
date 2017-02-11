@@ -1,0 +1,25 @@
+{
+  "name": "starter-genesis-child",
+  "version": "1.0.0",
+  "description": "Child Theme for the Genesis Framework",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://timothyjensen@github.com/timothyjensen/genesis-sample.git"
+  },
+  "author": "Tim Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyjensen/genesis-sample/issues"
+  },
+  "homepage": "https://github.com/timothyjensen/genesis-sample#readme"
+}
