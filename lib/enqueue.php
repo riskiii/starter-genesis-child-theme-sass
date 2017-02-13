@@ -19,6 +19,8 @@ function starter_genesis_enqueue_scripts_styles() {
 
 	wp_enqueue_style( 'starter-genesis-child-fonts', '//fonts.googleapis.com/css?family=Roboto:300,500,900', array(), CHILD_THEME_VERSION );
 
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+
 	wp_enqueue_style( 'dashicons' );
 
 	wp_enqueue_script( 'starter-genesis-child-responsive-menu', CHILD_URL . '/assets/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
