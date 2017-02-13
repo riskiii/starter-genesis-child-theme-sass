@@ -47,18 +47,6 @@ gulp.task('styles', function(){
         // Create style.css.
         .pipe(gulp.dest('./'))
         .pipe(browserSync.stream());
-
-	// return gulp.src('assets/sass/style.scss')
-	// 	.pipe(sourcemaps.init())
-    //
-	// 	.pipe(sass({
-	// 		outputStyle: 'expanded', // Options: nested, expanded, compact, compressed
-	// 		indentType: 'tab',
-	// 		indentWidth: 1
-	// 	})) // Converts Sass to CSS with gulp-sass
-	// 	.pipe(sourcemaps.write())
-	// 	.pipe(gulp.dest('./'))
-	// 	.pipe(browserSync.reload({stream: true}));
 });
 
 // Gulp watch syntax
